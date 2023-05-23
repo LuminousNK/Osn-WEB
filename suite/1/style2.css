@@ -1,0 +1,91 @@
+* {
+    padding:0;
+    margin:0;
+}
+
+body {
+    background-image: url('fon-2.jpg');
+}
+
+.home {
+    display: flex;
+    margin:auto;
+    padding: 2%;
+    display:flex;
+    margin-top: 5%;
+    border-radius: 15px;
+    color: red;
+    border-color: red;
+    background: none;
+    cursor: pointer;
+}
+
+.block-1 {
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 50vw;
+    padding: 10px;
+    border: solid;
+    border-color: grey;
+    border-width: 2px;
+    border-radius: 5px;
+    
+}
+
+.block-1 p, h3, li {
+    display: flex;
+    color: white;
+}
+
+.block-1 table {
+    text-align: center;
+}
+
+.button-content {
+    margin: auto;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-content button {
+    margin: auto;
+    padding-top:1%;
+    padding-bottom:1%;
+    padding-left: 5%;
+    padding-right: 5%;
+    background: rgb(230, 59, 59);
+    border-radius: 13px;
+    width: 50%;
+    height: 5vh;
+}
+
+.button-content button:hover {
+    background: black;
+    color: red;
+}
+
+.block-1 table {
+    margin: auto;
+}
+
+.body_lap {
+    display: flex;
+}
+
+.br_image {
+    margin: auto;
+}
+
+.img_box {
+    margin: auto;
+
+}
+
+.header_button {
+    width: 100%;
+}

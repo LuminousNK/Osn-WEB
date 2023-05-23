@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+                <link rel="stylesheet" href="style.css">
+                <title>MSI</title>
+            
+
+        </head>
+        <body>
+            
+            <div class="shapka">
+                <img class="logo" src="logo.png" alt="Logo"/>
+                <button class="button-1" href="">Продукты
+                    <a href="pc.html">PC</a>
+                    <a href="1/req.php">Laptops</a>
+                </button>
+                <div class="dropdown">
+                <button class="dropbtn" onclick="Myfunction();">
+                    Что нового
+                </button>
+                <div class="dropdown-content" id="myDropcont">
+                    <a href="">Акции</a>
+                    <a href="">О компании</a>
+                    <a href="">Работа у нас</a>
+
+                </div>
+                </div>
+                
+        
+                <a  class="P_1" href="html_page_products.html">Сервис</a>
+                <a  class="P_1" href="html_page_products.html">Где купить</a>
+                <a href="login.html">
+                    <img class="login_logo" src="login.png" alt="login"/>
+                </a>
+            </div>
+
+            <div class="centr">
+                
+                <img class="banner" src="banner.jpeg" alt="banner">
+            </div>
+
+            <div class="block_1" href="">
+                <a class="text-t" href="">MAG Ai1300P PCIE5</a>
+                <a class="text-b" href="">ATX 3.0 and PCIE 5 ready</a>
+            </div>
+            
+            <div class="block_2">
+                <a class="text-t" href="">Optix MAG281URF</a>
+                <a class="text-b" href="">ТВОЕ ПРЕИМУЩЕСТВО</a>
+            </div>
+
+            <div class="block_3">
+                <a class="text-t" href="">MEG Z790 ACE</a>
+                <a class="text-с" href="">Красота и скорость в чистом виде</a>
+            </div>
+            
+            <div class="block_4">
+                <img class="plus-img" src="plus.png">
+                <a class="text-a" href="">Регистрация продукции</a>
+                <p class="opisanie" href="">Чтобы пользоваться множеством преимуществ и принять участия в акциях</p>
+
+            </div>
+
+            <div class="block_5">
+                <img class="headphone-img" src="headphones.png">
+                <a class="text-a" href="">Поддержка</a>
+                <p class="opisanie" href="">Индивидуальные услуги специально для пользователей продукции</p>
+
+            </div>
+
+            <div class="podval">
+                <table class="tablica-podval">
+                    <tr><th>СООБШЕСТВА</th><th>ПОДДЕРЖКА</th><th>НОВОСТИ</th><th>О КОМПАНИИ</th><th>ДОПОЛНИТЕЛЬНО</th></tr>
+                    <tr><td><a href="">Форумы</a></td><td><a href="">Загрузки</a></td><td><a href="">Пресс-центр</a></td><td><a href="">Философия MSI</a></td><td><a href="">Интернет-магазины</a></td></tr>
+                    <tr><td><a href="">Социальные сети</a></td><td><a href="">Онлайн-регистрация</a></td><td><a href="">Награды</a></td><td><a href="">Мировоззрение</a></td><td><a href="">Каталоги</a></td></tr>
+                    <tr><td><a href="">Видео</a></td><td><a href="">Консультация</a></td><td><a href="">RSS</a></td><td><a href="">История брэнда</a></td><td><a href="">Обои рабочего стола</a></td></tr>
+                    <tr><td><a href="">Игровые команды</a></td><td><a href="">Список сервис-центров</a></td><td></td><td><a href="">Инвесторам</a></td><td><a href="">Приложения MSI Apps</a></td></tr>
+                    <tr><td><a href="">Статьи блога</a></td><td><a href="">Информация о гарантии</a></td><td></td><td><a href="">История инноваций</a></td><td><a href="">Дистрибьюторы в РФ</a></td></tr>
+                    <tr><td><a href="">Отзывы профессионалов</a></td><td><a href="">Заявка на вызов курьера</a></td><td></td><td><a href="">Контакты</a></td><td></td></tr>
+                </table>
+            </div>
+            <hr>
+            <footer style="background-color: white; padding-left:5px; padding-top:5px;">
+                <img class="logo-2" src="logo.png" width="60px;"> 
+                <a style="padding-left:10px;">Copyright&copy Горкунов Николай</a>
+            </footer>
+
+        </body>
+        <script src="menu_script.js"></script>
+        <script>
+            function Myfunction() {
+                document.getElementById("myDropcont").classList.toggle("show");
+            }
+            window.onclick = function(event) {
+                if (!event.target.matches('.dropbtn')) {
+                    var dropdowns = document.getElementsByClassName("dropdown-content");
+                    var i;
+                    for (i = 0; i<fropdowns.lenght; i++) {
+                        var openDropdown = dropdowns[i];
+                        if (openDropdown.classList.contains('show')) {
+                            openDropdown.classList.remove('show');
+                        }
+                    }
+                }
+            }
+        </script>
+    </html>
